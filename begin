@@ -1,3 +1,4 @@
+try {
 ps.close();
 String url = props.getProperty("db.url");
 props.load(fs);
