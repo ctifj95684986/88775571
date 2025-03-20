@@ -1,3 +1,4 @@
+public static void main(String[] args)
 rs.close();
 public void init(FileInputStream fs) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
